@@ -1,0 +1,8 @@
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Data\bin\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Data\bin\Debug\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Data\obj\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Data\obj\Debug\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Data\bin\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Data\bin\Debug\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Data\obj\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Data\obj\Debug\Auction.Data.pdb

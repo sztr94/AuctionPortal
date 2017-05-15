@@ -1,0 +1,103 @@
+﻿@using Auction.WebSite.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Aukciós portál</title>
+    <link href="@Url.Content("~/Content/Styles.css")" rel="stylesheet" type="text/css" />
+
+    <script src="@Url.Content("~/Scripts/jquery-2.2.2.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.js")"></script>
+
+    <script src="@Url.Content("~/Scripts/globalize/globalize.js")"></script>
+    <script src="@Url.Content(String.Format("~/Scripts/globalize/cultures/globalize.culture.{0}.js", @Culture))"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.globalize.min.js")"></script>
+    <script type="text/javascript">
+        $(function () {
+        Globalize.culture("@Culture");
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="headerText">
+            <h1>
+                Aukciós portál
+            </h1>
+        </div>
+        <div class="headerAdmin">
+            @if (ViewBag.CurrentGuestName == null)
+            {
+                <table>
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Bejelentkezés", "Login", "Account")
+                        </td>
+                        <td>
+                            @Html.ActionLink("Regisztráció", "Register", "Account")
+                        </td>
+                    </tr>
+                </table>
+            }
+            else
+            {
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            Üdvözöljük, @ViewBag.CurrentGuestName!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Licitálásaim", "MyBiddings", "Home")
+                        </td>
+                        <td>
+                            @Html.ActionLink("Kijelentkezés", "Logout", "Account")
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            }
+        </div>
+    </div>
+    <div class="content">
+        <div class="leftColumn">
+            <h3>Keresés név szerint szerint</h3>
+            <ul>
+                <li>
+                    @using (Html.BeginForm())
+                    {
+                        @Html.TextBox("SearchString") <input type="submit" value="Keresés" />
+                    }
+                </li>
+            </ul>
+            <h3>Keresés kategória szerint</h3>
+            @if (ViewBag.AuctionCategories == null || ViewBag.AuctionCategories.Count == 0)
+            {
+                <span>Nincs megjeleníthető kategória.</span>
+            }
+            else
+            {
+                <ul>
+                    @foreach (AuctionCategory cat in ViewBag.AuctionCategories)
+                {
+                        <li>
+                            @Html.ActionLink(cat.Name, "List", "Home", new { categoryId = cat.Id }, new { })
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+        <div class="rightColumn">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

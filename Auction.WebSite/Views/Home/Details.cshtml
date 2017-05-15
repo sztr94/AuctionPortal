@@ -1,0 +1,82 @@
+﻿@using Auction.WebSite.Models;
+
+@model AuctionObject
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null)
+{
+    <div class="contentText">Ez a tárgy jelenleg nem elérhető.</div>
+}
+else
+{
+    <div class="contentHead">@Model.Name</div>
+    <div class="contentBody">
+        <table width="600">
+            <tr>
+                <td>
+                    <strong>Kategória:</strong> @Model.AuctionCategory.Name
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Leírás:</strong> @Model.Description
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Hirdető:</strong> @Model.AuctionAdvertiser.Name
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Meghirdetve:</strong> @Model.StartDate.ToShortDateString()
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Lezárás:</strong> @Model.EndDate.ToShortDateString()
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @if (ViewBag.NoBidding.Contains(Model))
+                    {
+                        <strong>Kezdő licitösszeg: </strong>
+                        <span>@Model.StartBiddingAmount</span>
+                    }
+                    else
+                    {
+                        <strong>Jelenlegi licitösszeg: </strong>
+                        foreach (Bidding bidding in ViewBag.GetActualPrices)
+                        {
+                            if (bidding.ObjectId == Model.Id)
+                            { <span>@bidding.BiddingAmount</span> }
+                        }
+                    }
+                    <span> Ft</span>
+                </td>
+            </tr>
+            @if (Model.ObjectImage != null)
+            {
+                <tr>
+                    <td>
+                        <a href="@Url.Action("ImageForObject", new { objectId = Model.Id })" target="_blank">
+                            <img src="@Url.Action("ImageForObject", new { objectId = Model.Id })" border="0" class="contentImage" />
+                        </a>
+                    </td>
+                </tr>
+            }
+            @if (ViewBag.CurrentGuestName != null && Model.EndDate >= DateTime.Now)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink("Licitálás", "Index", "Bidding", new { objectId = Model.Id }, new { @class = "contentLink" })
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+}

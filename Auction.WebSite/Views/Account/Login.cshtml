@@ -1,0 +1,56 @@
+﻿@using Auction.WebSite.Models;
+
+@model UserViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken() 
+
+    <table>
+        <tr>
+            <td colspan="2">
+                <div class="failureNotification">@ViewBag.Information</div>
+                <div class="failureNotification">@Html.ValidationSummary(true, "A bejelentkezés sikertelen!")</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="contentHead">
+                    Bejelentkezési adatok:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td width="120">
+                Felhasználónév:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(user => user.UserName)
+            </td>
+        </tr>
+        <tr>
+            <td width="120">
+                Jelszó:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(user => user.UserPassword)
+            </td>
+        </tr>
+        <tr>
+            <td width="120"></td>
+            <td>
+                @Html.CheckBoxFor(user => user.RememberLogin) Bejelentkezés megjegyzése
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" height="50">
+                <input type="submit" value="Bejelentkezés" class="button" />
+            </td>
+        </tr>
+    </table>
+}

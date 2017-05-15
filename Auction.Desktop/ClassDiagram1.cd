@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Auction.Desktop.App" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIDIAEAACQAQAAAAgAAAIAgoAAAAAEAAAAAACIAgIA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.Model.AuctionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwAAAAAkAQAYQAAAAAAgAIAAAIAAAgEAAEAQAABEAAA=</HashCode>
+      <FileName>Model\AuctionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.Model.ObjectEventArgs" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ObjectEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.Persistence.AuctionServicePersistence" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAACAAABAAAEAAAAAgAAgAAAAAAAAAAAAYAAAAAAA=</HashCode>
+      <FileName>Persistence\AuctionServicePersistence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.Persistence.PersistenceUnavailableException" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\PersistenceUnavailableExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.Properties.Resources" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.View.LoginWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.View.ObjectEditorWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ObjectEditorWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.View.ObjectInfoWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ObjectInfoWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.BiddingAmountConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Converters\BiddingAmountConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.CategoryCollectionConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Converters\CategoryCollectionConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.CategoryConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Converters\CategoryConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.ImageHandler" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ImageHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.LoginViewModel" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgACAAAAAAAAAAAAAgBAAAAAQAAAABAEAQAAEACAAAA=</HashCode>
+      <FileName>ViewModel\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.MainViewModel" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lUARwAIjAQAQSEAoAhBGAAAUVIAAEQMgAEIACBRmIAA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.MessageEventArgs" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ViewModel\MessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auction.Desktop.ViewModel.ViewModelBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAAAAgAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Auction.Desktop.Model.IAuctionModel" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAgAAAIAAAAAAAAAAAAAIAAAgEAAEAQAABEAAA=</HashCode>
+      <FileName>Model\IAuctionModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Auction.Desktop.Persistence.IAuctionPersistence" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAACAAABAAAAAAAAAgAAgAAAAAAAAAAAAYAAAAAAA=</HashCode>
+      <FileName>Persistence\IAuctionPersistence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

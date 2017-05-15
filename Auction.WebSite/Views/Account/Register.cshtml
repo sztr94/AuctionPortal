@@ -1,0 +1,96 @@
+﻿@using Auction.WebSite.Models;
+
+@model GuestRegistrationViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td colspan="3">
+                <div class="failureNotification">@Html.ValidationSummary(true, "A regisztráció sikertelen!")</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="contentHead">
+                    Személyes adatok:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td width="120">
+                Név:
+            </td>
+            <td class="failureNotificationSmall" colspan="2">
+                @Html.TextBoxFor(guest => guest.Name, new { size = "40" })
+                @Html.ValidationMessageFor(guest => guest.Name)
+            </td>
+
+        </tr>
+        <tr>
+            <td width="120">
+                E-mail cím:
+            </td>
+            <td class="failureNotificationSmall" colspan="2">
+                @Html.TextBoxFor(guest => guest.Email, new { size = "40" })
+                @Html.ValidationMessageFor(guest => guest.Email)
+            </td>
+
+        </tr>
+        <tr>
+            <td width="120">
+                Telefonszám:
+            </td>
+            <td class="failureNotificationSmall" colspan="2">
+                @Html.TextBoxFor(guest => guest.PhoneNumber, new { size = "40" })
+                @Html.ValidationMessageFor(guest => guest.PhoneNumber)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="contentHead">
+                    Bejelentkezési adatok:
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" colspan="2">
+                Felhasználónév:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(guest => guest.UserName)
+                @Html.ValidationMessageFor(guest => guest.UserName)
+            </td>
+        </tr>
+        <tr>
+            <td width="150" colspan="2">
+                Jelszó:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(guest => guest.UserPassword)
+                @Html.ValidationMessageFor(guest => guest.UserPassword)
+            </td>
+        </tr>
+        <tr>
+            <td width="150" colspan="2">
+                Jelszó megismétlése:
+            </td>
+            <td class="failureNotificationSmall">
+                @Html.EditorFor(guest => guest.UserConfirmPassword)
+                @Html.ValidationMessageFor(guest => guest.UserConfirmPassword)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" height="70">
+                <br />A felhasználónév és a jelszó minimum 5, maximum 40 karakter hosszú lehet. Csak betűt, számot és kötőjelet tartalmazhat.<br /><br />
+                <input type="submit" value="Regisztráció" class="button" />
+            </td>
+        </tr>
+    </table>
+}
+

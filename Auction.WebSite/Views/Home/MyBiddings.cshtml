@@ -1,0 +1,144 @@
+﻿@using Auction.WebSite.Models;
+@using PagedList.Mvc;
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@model IList<Bidding>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null || Model.Count() == 0)
+{
+    <div class="contentText">Nincs megjeleníthető licitálási előzmény.</div>
+}
+else
+{
+    <div class="contentHead">Aktív:</div>
+    <div class="contentHead">Vezető:</div>
+    if (ViewBag.ActiveWon == null || ViewBag.ActiveWon.Count == 0)
+    {
+        <span>Nincs megjeleníthető licitálási előzmény.</span>
+    }
+    else
+    {
+        foreach (Bidding b in ViewBag.ActiveWon)
+        {
+                <table width="500">
+                    <tr class="ObjectItem">
+                        <td width="100">
+                            <img src="@Url.Action("ImageForObject", new { objectId = b.AuctionObject.Id })" border="0" class="contentImage" />
+                        </td>
+                        <td width="400">
+                            <div class="ObjectItemHead">
+                                @Html.ActionLink(b.AuctionObject.Name, "Details", new { objectId = b.AuctionObject.Id })
+                            </div>
+                            <div class="ObjectItemContent">
+                                <strong>Hirdető: </strong>@b.AuctionObject.AuctionAdvertiser.Name<br />
+                                <strong>Jelenlegi licitösszeg: </strong>
+                                <span>@b.BiddingAmount Ft</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+        }
+    }
+    <div class="contentHead">Nem vezető:</div>
+        if (ViewBag.ActiveLost == null || ViewBag.ActiveLost.Count == 0)
+        {
+            <span>Nincs megjeleníthető licitálási előzmény.</span>
+        }
+        else
+        {
+            foreach (Bidding b in ViewBag.ActiveLost)
+            {
+                <table width="500">
+                    <tr class="ObjectItem">
+                        <td width="100">
+                            <img src="@Url.Action("ImageForObject", new { objectId = b.AuctionObject.Id })" border="0" class="contentImage" />
+                        </td>
+                        <td width="400">
+                            <div class="ObjectItemHead">
+                                @Html.ActionLink(b.AuctionObject.Name, "Details", new { objectId = b.AuctionObject.Id })
+                            </div>
+                            <div class="ObjectItemContent">
+                                <strong>Hirdető: </strong>@b.AuctionObject.AuctionAdvertiser.Name<br />
+                                <strong>Jelenlegi licitösszeg: </strong>
+                                @foreach (Bidding a in ViewBag.GetActualPrices)
+                                {
+                                    if (a.ObjectId == b.AuctionObject.Id)
+                                    { <span>@a.BiddingAmount</span> }
+                                }
+                                <span> Ft</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                }
+            }
+    <div class="contentHead">Lejárt:</div>
+    <div class="contentHead">Győztes:</div>
+        if (ViewBag.OldWon == null || ViewBag.OldWon.Count == 0)
+        {
+            <span>Nincs megjeleníthető licitálási előzmény.</span>
+        }
+        else
+        {
+            foreach (Bidding b in ViewBag.OldWon)
+            {
+                <table width="500">
+                    <tr class="ObjectItem">
+                        <td width="100">
+                            <img src="@Url.Action("ImageForObject", new { objectId = b.AuctionObject.Id })" border="0" class="contentImage" />
+                        </td>
+                        <td width="400">
+                            <div class="ObjectItemHead">
+                                @Html.ActionLink(b.AuctionObject.Name, "Details", new { objectId = b.AuctionObject.Id })
+                            </div>
+                            <div class="ObjectItemContent">
+                                <strong>Hirdető: </strong>@b.AuctionObject.AuctionAdvertiser.Name<br />
+                                <strong>Jelenlegi licitösszeg: </strong>
+                                <span>@b.BiddingAmount Ft</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            }
+        }
+
+        <div class="contentHead">Vesztes:</div>
+        if (ViewBag.OldLost == null || ViewBag.OldLost.Count == 0)
+        {
+            <span>Nincs megjeleníthető licitálási előzmény.</span>
+        }
+        else
+        {
+            foreach (Bidding b in ViewBag.OldLost)
+            {
+                <table width="500">
+                    <tr class="ObjectItem">
+                        <td width="100">
+                            <img src="@Url.Action("ImageForObject", new { objectId = b.AuctionObject.Id })" border="0" class="contentImage" />
+                        </td>
+                        <td width="400">
+                            <div class="ObjectItemHead">
+                                @Html.ActionLink(b.AuctionObject.Name, "Details", new { objectId = b.AuctionObject.Id })
+                            </div>
+                            <div class="ObjectItemContent">
+                                <strong>Hirdető: </strong>@b.AuctionObject.AuctionAdvertiser.Name<br />
+                                <strong>Jelenlegi licitösszeg: </strong>
+                                @foreach (Bidding a in ViewBag.GetActualPrices)
+                                {
+                                if (a.ObjectId == b.AuctionObject.Id)
+                                { <span>@a.BiddingAmount</span> }
+                                }
+                                <span> Ft</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            }
+        }
+
+}

@@ -1,0 +1,135 @@
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\App.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop_MarkupCompile.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop_MarkupCompile.lref
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\csc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\vbc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\NLog.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Web.Http.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\NLog.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Web.Http.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.g.resources
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.Properties.Resources.resources
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.csproj.GenerateResource.Cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\LoginWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\LoginWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\MainWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\MainWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Configuration.Abstractions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\System.Configuration.Abstractions.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\ObjectEditorWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\ObjectEditorWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\ObjectInfoWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Desktop\obj\Debug\View\ObjectInfoWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\csc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\vbc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Desktop.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\NLog.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Configuration.Abstractions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Web.Http.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\NLog.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Configuration.Abstractions.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Web.Http.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\LoginWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\MainWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\LoginWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\ObjectEditorWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\ObjectInfoWindow.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\App.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop_MarkupCompile.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop_MarkupCompile.lref
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\MainWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\ObjectEditorWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\View\ObjectInfoWindow.baml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.g.resources
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.Properties.Resources.resources
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\obj\Debug\Auction.Desktop.csproj.GenerateResource.Cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Desktop\bin\Debug\Microsoft.Practices.ServiceLocation.xml

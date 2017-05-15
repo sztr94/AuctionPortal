@@ -1,0 +1,130 @@
+﻿@using Auction.WebSite.Models;
+
+@model BiddingViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="contentHead">@Model.AuctionObject.Name</div>
+<div class="contentBody">
+    <table width="600">
+        <tr>
+            <td>
+                <strong>Kategória:</strong> @Model.AuctionObject.AuctionCategory.Name
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Leírás:</strong> @Model.AuctionObject.Description
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Hirdető:</strong> @Model.AuctionObject.AuctionAdvertiser.Name
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Meghirdetve:</strong> @Model.AuctionObject.StartDate.ToShortDateString()
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Lezárás:</strong> @Model.AuctionObject.EndDate.ToShortDateString()
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @if (ViewBag.NoBidding.Contains(Model.AuctionObject))
+                {
+                    <strong>Kezdő licitösszeg: </strong>
+                    <span>@Model.AuctionObject.StartBiddingAmount</span>
+                }
+                else
+                {
+                    <strong>Jelenlegi licitösszeg: </strong>
+                    foreach (Bidding bidding in ViewBag.GetActualPrices)
+                    {
+                        if (bidding.ObjectId == Model.AuctionObject.Id)
+                        { <span>@bidding.BiddingAmount</span> }
+                    }
+                }
+                <span> Ft</span>
+            </td>
+        </tr>
+        @if (Model.AuctionObject.ObjectImage != null)
+            {
+            <tr>
+                <td>
+                    <a href="@Url.Action("ImageForObject", new { objectId = Model.AuctionObject.Id })" target="_blank">
+                        <img src="@Url.Action("ImageForObject", new { objectId = Model.AuctionObject.Id })" border="0" class="contentImage" />
+                    </a>
+                </td>
+            </tr>
+        }
+        </table>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <table>
+                <tr>
+                    <td colspan="2" valign="middle">
+                        <div class="failureNotification">@Html.ValidationSummary(true, "Sikertelen licitálás!")</div>
+
+                        <div class="contentHead">
+                            Személyes adatok:
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="120">
+                        Név:
+                    </td>
+                    <td class="failureNotificationSmall">
+                        @Html.TextBoxFor(bidding => bidding.Name, new { size = "40" })
+                        @Html.ValidationMessageFor(bidding => bidding.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail cím:
+                    </td>
+                    <td class="failureNotificationSmall">
+                        @Html.EditorFor(bidding => bidding.Email, new { htmlAttributes = new { size = "40" } })
+                        @Html.ValidationMessageFor(bidding => bidding.Email)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Telefonszám:
+                    </td>
+                    <td class="failureNotificationSmall">
+                        @Html.EditorFor(bidding => bidding.PhoneNumber)
+                        @Html.ValidationMessageFor(bidding => bidding.PhoneNumber)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="middle">
+                        <div class="contentHead">
+                            Licitálás:
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    Licitösszeg:
+                </td>
+                <td class="failureNotificationSmall">
+                    @Html.TextBoxFor(bidding => bidding.BiddingAmount) Ft
+                    @Html.ValidationMessageFor(bidding => bidding.BiddingAmount)
+                </tr>
+                <tr>
+                    <td colspan="3" height="70">
+                        <input type="submit" value="Licitálás" class="button" />
+                    </td>
+                </tr>
+            </table>
+        }
+    
+</div>

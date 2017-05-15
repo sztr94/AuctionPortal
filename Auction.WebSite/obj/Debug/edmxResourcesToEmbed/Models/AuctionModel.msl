@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AuctionModelStoreContainer" CdmEntityContainer="AuctionEntities">
+    <EntitySetMapping Name="AuctionAdvertiser">
+      <EntityTypeMapping TypeName="AuctionModel.AuctionAdvertiser">
+        <MappingFragment StoreEntitySet="AuctionAdvertiser">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuctionCategory">
+      <EntityTypeMapping TypeName="AuctionModel.AuctionCategory">
+        <MappingFragment StoreEntitySet="AuctionCategory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuctionGuest">
+      <EntityTypeMapping TypeName="AuctionModel.AuctionGuest">
+        <MappingFragment StoreEntitySet="AuctionGuest">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuctionObject">
+      <EntityTypeMapping TypeName="AuctionModel.AuctionObject">
+        <MappingFragment StoreEntitySet="AuctionObject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AdvertiserId" ColumnName="AdvertiserId" />
+          <ScalarProperty Name="StartBiddingAmount" ColumnName="StartBiddingAmount" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="ObjectImage" ColumnName="ObjectImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bidding">
+      <EntityTypeMapping TypeName="AuctionModel.Bidding">
+        <MappingFragment StoreEntitySet="Bidding">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ObjectId" ColumnName="ObjectId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="BiddingAmount" ColumnName="BiddingAmount" />
+          <ScalarProperty Name="BiddingDate" ColumnName="BiddingDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

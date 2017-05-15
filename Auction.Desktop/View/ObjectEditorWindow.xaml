@@ -1,0 +1,46 @@
+﻿<Window x:Class="Auction.Desktop.View.ObjectEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auction.Desktop.View"
+        mc:Ignorable="d"
+        Title="Új tárgy létrehozása" Height="300" Width="500">
+    <Grid Margin="0,0,-71,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32" />
+            <RowDefinition Height="120" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="35" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Grid.ColumnSpan="3">
+            <TextBlock Text="Név:" Margin="5" />
+            <TextBox Width="150" Text="{Binding EditedObject.Name}" Margin="5"/>
+            <TextBlock Text="Kategória:" Margin="5" />
+            <ComboBox Width="150" ItemsSource="{Binding Categories}" SelectedItem="{Binding EditedObject.Category}" Margin="5" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Grid.ColumnSpan="3">
+            <TextBlock Text="Leírás:" Margin="5" />
+            <TextBox Width="430" Height="100" Text="{Binding EditedObject.Description}" Margin="5,0,5,1" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,23" Grid.RowSpan="2" Grid.ColumnSpan="3">
+            <TextBlock Text="Kezdő ár:" Margin="5" />
+            <TextBox Width="100" Text="{Binding EditedObject.StartBiddingAmount}" Margin="5,5,0,10"/>
+            <TextBlock Text="Ft" Width="15" Margin="5,5,0,0" />
+            <TextBlock Text="Lezárási dátum:" Margin="5,5,0,0" />
+            <DatePicker Width="200" SelectedDate="{Binding EditedObject.EndDate}" Margin="5,0,5,10"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Grid.ColumnSpan="3">
+            <Button Content="Új kép hozzáadása" Margin="6,5,0,5" IsEnabled="{Binding NoPicture}" Command="{Binding CreateImageCommand}" CommandParameter="{Binding EditedObject}"  HorizontalAlignment="Left" Width="120" />
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Mentés" Margin="6,5,0,5" Command="{Binding SaveChangesCommand}"  Width="100" />
+            <Button Content="Mégse" Margin="5,5,6,5" Command="{Binding CancelChangesCommand}" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AuctionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AuctionAdvertiser">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPassword" Type="Binary" MaxLength="64" FixedLength="true" Nullable="false" />
+    <NavigationProperty Name="AuctionObject" Relationship="Self.ObjectToAdvertiser" FromRole="AuctionAdvertiser" ToRole="AuctionObject" />
+  </EntityType>
+  <EntityType Name="AuctionCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="AuctionObject" Relationship="Self.ObjectToCategory" FromRole="AuctionCategory" ToRole="AuctionObject" />
+  </EntityType>
+  <EntityType Name="AuctionGuest">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPassword" Type="Binary" MaxLength="64" FixedLength="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Bidding" Relationship="Self.BiddingToUser" FromRole="AuctionGuest" ToRole="Bidding" />
+  </EntityType>
+  <EntityType Name="AuctionObject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdvertiserId" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StartBiddingAmount" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ObjectImage" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AuctionAdvertiser" Relationship="Self.ObjectToAdvertiser" FromRole="AuctionObject" ToRole="AuctionAdvertiser" />
+    <NavigationProperty Name="AuctionCategory" Relationship="Self.ObjectToCategory" FromRole="AuctionObject" ToRole="AuctionCategory" />
+    <NavigationProperty Name="Bidding" Relationship="Self.BiddingToObject" FromRole="AuctionObject" ToRole="Bidding" />
+  </EntityType>
+  <EntityType Name="Bidding">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ObjectId" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BiddingAmount" Type="Int32" Nullable="false" />
+    <Property Name="BiddingDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="AuctionGuest" Relationship="Self.BiddingToUser" FromRole="Bidding" ToRole="AuctionGuest" />
+    <NavigationProperty Name="AuctionObject" Relationship="Self.BiddingToObject" FromRole="Bidding" ToRole="AuctionObject" />
+  </EntityType>
+  <Association Name="ObjectToAdvertiser">
+    <End Role="AuctionAdvertiser" Type="Self.AuctionAdvertiser" Multiplicity="1" />
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionAdvertiser">
+        <PropertyRef Name="UserName" />
+      </Principal>
+      <Dependent Role="AuctionObject">
+        <PropertyRef Name="AdvertiserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ObjectToCategory">
+    <End Role="AuctionCategory" Type="Self.AuctionCategory" Multiplicity="1" />
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AuctionObject">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BiddingToUser">
+    <End Role="AuctionGuest" Type="Self.AuctionGuest" Multiplicity="1" />
+    <End Role="Bidding" Type="Self.Bidding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionGuest">
+        <PropertyRef Name="UserName" />
+      </Principal>
+      <Dependent Role="Bidding">
+        <PropertyRef Name="UserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BiddingToObject">
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="1" />
+    <End Role="Bidding" Type="Self.Bidding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionObject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bidding">
+        <PropertyRef Name="ObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AuctionEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AuctionAdvertiser" EntityType="Self.AuctionAdvertiser" />
+    <EntitySet Name="AuctionCategory" EntityType="Self.AuctionCategory" />
+    <EntitySet Name="AuctionGuest" EntityType="Self.AuctionGuest" />
+    <EntitySet Name="AuctionObject" EntityType="Self.AuctionObject" />
+    <EntitySet Name="Bidding" EntityType="Self.Bidding" />
+    <AssociationSet Name="ObjectToAdvertiser" Association="Self.ObjectToAdvertiser">
+      <End Role="AuctionAdvertiser" EntitySet="AuctionAdvertiser" />
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+    </AssociationSet>
+    <AssociationSet Name="ObjectToCategory" Association="Self.ObjectToCategory">
+      <End Role="AuctionCategory" EntitySet="AuctionCategory" />
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+    </AssociationSet>
+    <AssociationSet Name="BiddingToUser" Association="Self.BiddingToUser">
+      <End Role="AuctionGuest" EntitySet="AuctionGuest" />
+      <End Role="Bidding" EntitySet="Bidding" />
+    </AssociationSet>
+    <AssociationSet Name="BiddingToObject" Association="Self.BiddingToObject">
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+      <End Role="Bidding" EntitySet="Bidding" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AuctionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AuctionAdvertiser">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="Name" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="UserPassword" Type="binary" MaxLength="64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuctionCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuctionGuest">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="Name" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="UserPassword" Type="binary" MaxLength="64" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuctionObject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="AdvertiserId" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="StartBiddingAmount" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="ObjectImage" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Bidding">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ObjectId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="BiddingAmount" Type="int" Nullable="false" />
+    <Property Name="BiddingDate" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="BiddingToObject">
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="1" />
+    <End Role="Bidding" Type="Self.Bidding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionObject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bidding">
+        <PropertyRef Name="ObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BiddingToUser">
+    <End Role="AuctionGuest" Type="Self.AuctionGuest" Multiplicity="1" />
+    <End Role="Bidding" Type="Self.Bidding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionGuest">
+        <PropertyRef Name="UserName" />
+      </Principal>
+      <Dependent Role="Bidding">
+        <PropertyRef Name="UserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ObjectToAdvertiser">
+    <End Role="AuctionAdvertiser" Type="Self.AuctionAdvertiser" Multiplicity="1" />
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionAdvertiser">
+        <PropertyRef Name="UserName" />
+      </Principal>
+      <Dependent Role="AuctionObject">
+        <PropertyRef Name="AdvertiserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ObjectToCategory">
+    <End Role="AuctionCategory" Type="Self.AuctionCategory" Multiplicity="1" />
+    <End Role="AuctionObject" Type="Self.AuctionObject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuctionCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AuctionObject">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AuctionModelStoreContainer">
+    <EntitySet Name="AuctionAdvertiser" EntityType="Self.AuctionAdvertiser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AuctionCategory" EntityType="Self.AuctionCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AuctionGuest" EntityType="Self.AuctionGuest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AuctionObject" EntityType="Self.AuctionObject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bidding" EntityType="Self.Bidding" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="BiddingToObject" Association="Self.BiddingToObject">
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+      <End Role="Bidding" EntitySet="Bidding" />
+    </AssociationSet>
+    <AssociationSet Name="BiddingToUser" Association="Self.BiddingToUser">
+      <End Role="AuctionGuest" EntitySet="AuctionGuest" />
+      <End Role="Bidding" EntitySet="Bidding" />
+    </AssociationSet>
+    <AssociationSet Name="ObjectToAdvertiser" Association="Self.ObjectToAdvertiser">
+      <End Role="AuctionAdvertiser" EntitySet="AuctionAdvertiser" />
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+    </AssociationSet>
+    <AssociationSet Name="ObjectToCategory" Association="Self.ObjectToCategory">
+      <End Role="AuctionCategory" EntitySet="AuctionCategory" />
+      <End Role="AuctionObject" EntitySet="AuctionObject" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

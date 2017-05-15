@@ -1,0 +1,55 @@
+﻿@using Auction.WebSite.Models;
+@using PagedList;
+@using PagedList.Mvc;
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@model PagedList.IPagedList<AuctionObject>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model == null || Model.Count() == 0)
+{
+    <div class="contentText">Jelenleg nincs meghirdetett tárgy.</div>
+}
+else
+{
+    for (Int32 i = 0; i < Model.Count; i++)
+    {
+        <table width="500">
+            <tr class="ObjectItem">
+                <td width="100">
+                    <img src="@Url.Action("ImageForObject", new { objectId = Model[i].Id })" border="0" class="contentImage" />
+                </td>
+                <td width="400">
+                    <div class="ObjectItemHead">
+                        @Html.ActionLink(Model[i].Name, "Details", new { objectId = Model[i].Id })
+                    </div>
+                    <div class="ObjectItemContent">
+                        <strong>Hirdető: </strong>@Model[i].AuctionAdvertiser.Name<br />
+
+                        @if (ViewBag.NoBidding.Contains(Model[i]))
+                        {
+                            <strong>Kezdő licitösszeg: </strong>
+                            <span>@Model[i].StartBiddingAmount</span>
+                        }
+                        else
+                        {
+                            <strong>Jelenlegi licitösszeg: </strong>
+
+                            foreach (Bidding bidding in ViewBag.GetActualPrices)
+                            {
+                                if (bidding.ObjectId == Model[i].Id)
+                                { <span>@bidding.BiddingAmount</span> }
+                            }
+                        }
+                        <span> Ft</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    }
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+}

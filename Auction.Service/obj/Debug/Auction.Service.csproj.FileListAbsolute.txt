@@ -1,0 +1,201 @@
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\obj\Debug\Auction.Service.csproj.App.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\obj\Debug\Auction.Service.csprojResolveAssemblyReference.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\csc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\vbc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Auction.Service.dll.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Antlr3.Runtime.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.Web.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Newtonsoft.Json.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\NLog.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Extensions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Formatting.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Primitives.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Helpers.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Http.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Http.WebHost.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Mvc.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Optimization.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Razor.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\WebGrease.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.Web.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\NLog.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Extensions.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Formatting.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Net.Http.Primitives.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Http.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Http.WebHost.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Helpers.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Mvc.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Optimization.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.Razor.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Antlr3.Runtime.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Newtonsoft.Json.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\obj\Debug\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\2. beadandó\Auction\Auction.Service\obj\Debug\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\obj\Debug\Auction.Service.csproj.App.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\obj\Debug\Auction.Service.csprojResolveAssemblyReference.cache
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\obj\Debug\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\obj\Debug\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\csc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\vbc.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Auction.Service.dll.config
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Auction.Service.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Auction.Service.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Antlr3.Runtime.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Auction.Data.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.Web.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Newtonsoft.Json.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\NLog.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Owin.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Extensions.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Formatting.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Primitives.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Helpers.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Http.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Http.WebHost.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Mvc.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Optimization.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Razor.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\WebGrease.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Auction.Data.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.Web.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\NLog.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Extensions.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Formatting.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Net.Http.Primitives.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Http.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Http.WebHost.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Helpers.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Mvc.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Optimization.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.Razor.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Antlr3.Runtime.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Newtonsoft.Json.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Eszti\Documents\Documents\ELTE\WAF\ANMS27\bead2\Auction\Auction.Service\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
